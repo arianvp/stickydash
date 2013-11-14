@@ -3,6 +3,9 @@ class Dashing.Clock extends Dashing.Widget
   ready: ->
     setInterval(@startTime, 500)
 
+    date = new Date()
+    countdown new Date(2020, 1, 1), (ts) ->
+      document.getElementById('cd').innerHTML = "<strong>Volgende borrel:</strong> " + ts.toString();
   startTime: =>
     today = new Date()
 
