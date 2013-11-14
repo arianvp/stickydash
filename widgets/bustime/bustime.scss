@@ -1,0 +1,15 @@
+$background-color:  #12b0c5;
+
+
+.widget-bustime {
+	overflow: hidden;
+	background-color: $background-color;
+}
+
+.widget-bustime table {
+	text-align: left;
+}
+
+.widget-bustime td, .widget-bustime th {
+	padding-right: 15px;
+}

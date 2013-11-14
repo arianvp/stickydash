@@ -1,0 +1,24 @@
+
+<table class="times">
+	<thead>
+		<caption>Bushalte botanische tuinen</caption>
+		<tr>
+			<th>Lijn</th>
+			<th>Richting</th>
+			<th>Vertrektijd</th>
+			<th>status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-foreach-item="items">
+			<td data-bind="item.service"></td>
+			<td data-bind="item.destinationName"></td>
+			<td data-bind="item.time"></td>
+			<td data-bind="item.realtimeText"></td>
+		</tr>
+	</tbody>
+
+</table>
+<footer>
+		<p class="updated-at" data-bind="updatedAtMessage"></p>
+</footer>
