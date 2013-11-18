@@ -1,0 +1,1 @@
+class Dashing.Pixel extends Dashing.Widget
