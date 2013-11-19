@@ -10,7 +10,7 @@ class Dashing.Bustime extends Dashing.Widget
         min = +s[1] + delay
 
 
-        aankomstWandel = moment().add("minutes", 7).toDate()
+        aankomstWandel = moment().add("minutes", 3).toDate()
 
         vertrekBus = moment().hours(hour).minutes(min).toDate()
 
