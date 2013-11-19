@@ -1,4 +1,16 @@
-.widget-borrel { background-image:url("/assets/beer.gif"); background-size: 100% auto;}
+.widget-borrel {
+    background-image:url("/assets/beer.gif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transition-property: background-position-y;
+    transition-duration: 100s;
+    background-position-y: 360px;
+}
+
+.widget-borrel.vullen {
+    transition-duration: 10s;
+    background-position-y: 0px;
+}
 .widget-borrel h1 {
     font-size: 24px;
 }
