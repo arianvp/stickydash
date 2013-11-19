@@ -1,1 +1,13 @@
-Check out http://shopify.github.com/dashing for more information.
+Live version http://stickydash.herokuapp.com/sampletv
+
+
+#Features
+
+* bus times
+* upcoming events
+* Countdown until next borrel/drink
+* flickr picture feed
+* current temperature
+* & more!
+
+
