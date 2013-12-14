@@ -11,3 +11,6 @@ Live version http://stickydash.herokuapp.com/sampletv
 * & more!
 
 
+# planned changes
+* meer betere bustijden
+* woestgave drankmeter
